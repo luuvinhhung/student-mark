@@ -12,81 +12,81 @@ export default class StudentMark extends React.Component {
       name: "Ann-marie",
       class: "S-6",
       birthday: "08/12/1997",
-      toan: 2,
-      ly: 9,
-      hoa: 9
+      math: 2,
+      physical: 9,
+      chemical: 9
     }, {
       id: "22511281-bbcd-4c82-bda4-79fb9a0321b6",
       name: "Ravid",
       class: "N-5",
       birthday: "03/30/2000",
-      toan: 4,
-      ly: 5,
-      hoa: 5
+      math: 4,
+      physical: 5,
+      chemical: 5
     }, {
       id: "1a3fded0-fb97-41bd-8fca-229e17844b6d",
       name: "Karrah",
       class: "V-3",
       birthday: "01/09/1993",
-      toan: 1,
-      ly: 2,
-      hoa: 5
+      math: 1,
+      physical: 2,
+      chemical: 5
     }, {
       id: "65c5a06d-2180-4551-8eb4-4d023416469a",
       name: "Glennie",
       class: "C-1",
       birthday: "06/23/1995",
-      toan: 2,
-      ly: 6,
-      hoa: 10
+      math: 2,
+      physical: 6,
+      chemical: 10
     }, {
       id: "0a9f52ba-d1c1-458a-bcc0-2e2d132c5b57",
       name: "Mariam",
       class: "Z-0",
       birthday: "08/26/1999",
-      toan: 0,
-      ly: 9,
-      hoa: 1
+      math: 0,
+      physical: 9,
+      chemical: 1
     }, {
       id: "9eea505e-26cc-4036-a8d0-a54a32119ccd",
       name: "Josee",
       class: "L-3",
       birthday: "01/11/1998",
-      toan: 3,
-      ly: 8,
-      hoa: 10
+      math: 3,
+      physical: 8,
+      chemical: 10
     }, {
       id: "61f38206-5da1-4c52-b87f-be89f6d7bcf3",
       name: "Stepha",
       class: "S-7",
       birthday: "05/05/2000",
-      toan: 3,
-      ly: 10,
-      hoa: 6
+      math: 3,
+      physical: 10,
+      chemical: 6
     }, {
       id: "eddd899d-82fd-4b5b-8743-6bd53056d8a3",
       name: "Kaile",
       class: "U-7",
       birthday: "04/26/1993",
-      toan: 9,
-      ly: 10,
-      hoa: 9
+      math: 9,
+      physical: 10,
+      chemical: 9
     }, {
       id: "f4e43b20-5e6e-4fc0-9082-69b89bb3ca39",
       name: "Manon",
       class: "O-8",
       birthday: "10/15/1993",
-      toan: 10,
-      ly: 0,
-      hoa: 8
+      math: 10,
+      physical: 0,
+      chemical: 8
     }, {
       id: "dc50ac09-d642-45a6-9cec-7cc3461aed59",
       name: "Row",
       class: "G-6",
       birthday: "07/17/1997",
-      toan: 3,
-      ly: 10,
-      hoa: 9
+      math: 3,
+      physical: 10,
+      chemical: 9
     }],
     searchText: '',
   }
@@ -161,7 +161,7 @@ export default class StudentMark extends React.Component {
     let { data } = this.state
     const columns = []
     const subjects = [
-      'toan', 'ly', 'hoa'
+      'math', 'physical', 'chemical'
     ]
     const numberOfColumn = [
       'name',
